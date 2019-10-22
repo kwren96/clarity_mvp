@@ -1,22 +1,82 @@
+.clarity-button {
+  float: right;
+  padding: 120px 100px;
+}
+
 .App {
-  text-align: center;
+  background-image: url("./clarity.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+.rating-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 340px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.rating-button-mid {
+  background-color: orange;
+  border: none;
   color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.rating-button-warning {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.rating-button-safe {
+  background-color: green;
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
 }
 
-.App-link {
-  color: #09d3ac;
+.rating-button-mid:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+.rating-button-warning:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+.rating-button-safe:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+.subscribe-info {
+  text-align: center;
+  padding: 10px;
 }
