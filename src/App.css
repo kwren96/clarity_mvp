@@ -1,6 +1,6 @@
 .clarity-button {
   float: right;
-  padding: 120px 100px;
+  padding: 16vh 10vh;
 }
 
 .App {
@@ -14,69 +14,69 @@
 .rating-buttons {
   position: absolute;
   bottom: 0;
-  left: 340px;
+  left: 23.5vw;
 }
 
 .rating-button-mid {
   background-color: orange;
   border: none;
   color: white;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 5vh;
+  height: 5vh;
+  line-height: 5vh;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 2vh;
+  margin: 0.5vh;
   border-radius: 50%;
 }
 .rating-button-warning {
   background-color: red;
   border: none;
   color: white;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 5vh;
+  height: 5vh;
+  line-height: 5vh;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 2vh;
+  margin: 0.5vh;
   border-radius: 50%;
 }
 .rating-button-safe {
   background-color: green;
   border: none;
   color: white;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 5vh;
+  height: 5vh;
+  line-height: 5vh;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 2vh;
+  margin: 0.5vh;
   border-radius: 50%;
 }
 
 .rating-button-mid:hover {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: white;
   color: black;
 }
 .rating-button-warning:hover {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: white;
   color: black;
 }
 .rating-button-safe:hover {
-  border: 2px solid black;
+  border: 0.2vh solid black;
   background-color: white;
   color: black;
 }
 
 .subscribe-info {
   text-align: center;
-  padding: 10px;
+  padding: 1vh;
 }
